@@ -1,0 +1,40 @@
+img {
+  border: 1px solid black;
+  border-bottom: none;
+}
+
+div:nth-child(2n+6) {
+  border-left: none;
+}
+
+div:last-child img {
+  border-bottom: 1px solid black;
+}
+
+@media only screen and (min-width: 768px) {
+  div {
+    outline: 1px solid black;
+  }
+  
+  div img {
+    display: none;
+  }
+  div:first-child {
+    background-image: url('http://via.placeholder.com/960x100');
+  }
+
+  div:nth-child(2) {
+    background-image: url('http://via.placeholder.com/200x600');
+  }
+
+  div:nth-child(n+3) {
+    background-image: url('http://via.placeholder.com/380x200');
+  }
+  div:nth-child(n+5) {
+    background-image: url('http://via.placeholder.com/190x250');
+  }
+
+  div:last-child {
+    background-image: url('http://via.placeholder.com/760x150');
+  }
+}
