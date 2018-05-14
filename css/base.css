@@ -1,0 +1,12 @@
+
+main{
+  width: 480px;
+  margin: 0 auto;
+  font-size: 0;
+}
+
+div {
+  box-sizing: border-box;
+
+  display: inline-block;
+}
