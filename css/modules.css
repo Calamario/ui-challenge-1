@@ -11,7 +11,7 @@ div:last-child img {
   border-bottom: 1px solid black;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 960px) {
   div {
     outline: 1px solid black;
   }
@@ -19,9 +19,10 @@ div:last-child img {
   div img {
     display: none;
   }
-  
+
   div:first-child {
     background-image: url('http://via.placeholder.com/960x100');
+    font-size: 1rem;
   }
 
   div:nth-child(2) {
