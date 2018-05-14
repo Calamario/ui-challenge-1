@@ -19,6 +19,7 @@ div:last-child img {
   div img {
     display: none;
   }
+  
   div:first-child {
     background-image: url('http://via.placeholder.com/960x100');
   }
